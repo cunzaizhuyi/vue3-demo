@@ -30,9 +30,3 @@ export default {
     }
 };
 </script>
-<style>
-    .ol{
-        width: 300px;
-        text-align: left;
-    }
-</style>

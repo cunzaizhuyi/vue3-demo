@@ -32,9 +32,3 @@ export default {
     // 对这种简单数据类型，toRaw好像意义不大？
 };
 </script>
-<style>
-    .ol{
-        width: 300px;
-        text-align: left;
-    }
-</style>

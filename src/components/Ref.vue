@@ -1,6 +1,5 @@
 <template>
     <button @click="addCnt">count is: {{ cnt }}</button>
-
 </template>
 
 <script>
