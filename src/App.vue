@@ -11,7 +11,9 @@
 <!--  <Recurse2 />-->
 <!--  <ToRaw />-->
 <!--  <ToRaw2 />-->
-  <MarkRaw />
+<!--  <MarkRaw />-->
+<!--  <TeleportDialog></TeleportDialog>-->
+  <Nexttick></Nexttick>
 </template>
 
 <script>
@@ -28,6 +30,10 @@ import ToRaw from './components/ToRaw.vue'
 import ToRaw2 from './components/ToRaw2.vue'
 import MarkRaw from './components/MarkRaw.vue'
 
+import TeleportDialog from './components/teleport/Teleport.vue'
+
+import Nexttick from './components/global-api/Nexttick.vue'
+
 export default {
   name: 'App',
   components: {
@@ -43,6 +49,8 @@ export default {
     ToRaw,
     ToRaw2,
     MarkRaw,
+    TeleportDialog,
+    Nexttick,
   }
 }
 </script>

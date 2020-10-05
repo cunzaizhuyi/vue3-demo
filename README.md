@@ -10,7 +10,7 @@ src/components下每一个.vue组件，都是一个vue3的知识点。
 按照下面的顺序学习效果更佳
 
 
-#### 组合API部分
+#### Reactivity API部分
 * Ref.vue  组合API中ref()的简单使用
 * Reactive.vue  组合API中reactive()的简单使用，一个todo list
 * Reactive2.vue 除json和array外的其他对象
@@ -26,4 +26,14 @@ src/components下每一个.vue组件，都是一个vue3的知识点。
 * toRaw2.vue 对ref()返回对象toRaw()
 
 * markRaw.vue 永远不想响应UI变化的数据，使用markRaw()
+
+#### teleport组件
+* teleport.vue 组件使用
+
+
+#### global-API
+有一些全局API的移除，变成实例API，便于性能优化。tree shaking。
+
+* nextTick.vue 
+
 
