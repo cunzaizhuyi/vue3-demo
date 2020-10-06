@@ -9,7 +9,7 @@
     export default {
         name: "nexttick",
         mounted() {
-            // nextTick 已经变成实例API，不再是全局API。this.$nextTick()
+            // nextTick 已经变成实例API，不再是全局API。this.$nextTick() 或者 Vue.nextTick
             nextTick(() => {
                 console.log('111: ', '可以可以')
             })
